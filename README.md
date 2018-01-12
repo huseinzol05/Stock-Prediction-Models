@@ -4,6 +4,12 @@ Test performance and reliability of machine learning models from ARIMA, Trees an
 ## [1 YEAR Deep Recurrent Neural Network only](https://github.com/huseinzol05/Stock-Prediction-Comparison/blob/master/rnn-only.ipynb)
 ![alt text](https://raw.githubusercontent.com/huseinzol05/Stock-Prediction-Comparison/master/output/rnn-only.png)
 
+## [1 YEAR Deep Bidirectional Recurrent Neural Network only](https://github.com/huseinzol05/Stock-Prediction-Comparison/blob/master/bidirectional-rnn-only.ipynb)
+![alt text](https://raw.githubusercontent.com/huseinzol05/Stock-Prediction-Comparison/master/output/download%20(1).png)
+
+## [1 YEAR Deep 2-Path Recurrent Neural Network only](https://github.com/huseinzol05/Stock-Prediction-Comparison/blob/master/2path-rnn-only.ipynb)
+![alt text](https://raw.githubusercontent.com/huseinzol05/Stock-Prediction-Comparison/master/output/download.png)
+
 ## [1 MONTH CRUNCHED DEEP-AUTOENCODER + RNN + ARIMA + XGB](https://github.com/huseinzol05/Stock-Prediction-Comparison/blob/master/stack-rnn-arima-xgb.ipynb)
 ![alt text](https://raw.githubusercontent.com/huseinzol05/Stock-Prediction-Comparison/master/output/stack-xgb.png)
 
