@@ -25,6 +25,7 @@ Test performance and reliability of machine learning models from Stacking and De
  15. LSTM Sequence-to-Sequence with Attention Recurrent Neural Network
  16. LSTM Sequence-to-Sequence Bidirectional Recurrent Neural Network
  17. LSTM Sequence-to-Sequence with Attention Bidirectional Recurrent Neural Network
+ 18. LSTM with Attention Scaled-Dot Recurrent Neural Network
 
 
 ## Results (not included all)
@@ -55,7 +56,7 @@ LSTM Sequence-to-Sequence with Attention Recurrent Neural Network
 
 LSTM Sequence-to-Sequence with Attention Bidirectional Recurrent Neural Network
 
-![alt text](lstm-seq2seq-bidirectional-attention.png)
+![alt text](output/lstm-seq2seq-bidirectional-attention.png)
 
 Encoder-Decoder Feed-forward + LSTM Recurrent Neural Network
 
