@@ -33,7 +33,7 @@ Test performance and reliability of machine learning models from Stacking and De
 ## Results (not included all)
 
 ```text
-# buy_stock(pred, df.Close,initial_state=1,delay=4,initial_money=10000)
+# buy_stock(pred, df.Close,initial_state=1,delay=4,initial_money=10000,max_buy=3,max_sell=100)
 day 0: buy 3 units at price 2306.100036, total balance 7693.899964
 day 11, sell 3 units at price 2313.689940, investment 0.329123 %, total balance 10007.589904,
 day 21: buy 3 units at price 2306.100036, total balance 7701.489868
