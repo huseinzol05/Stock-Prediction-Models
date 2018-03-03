@@ -33,34 +33,35 @@ Test performance and reliability of machine learning models from Stacking and De
 ## Results (not included all)
 
 ```text
-day 0: buy 1 units at price 768.700012, total balance 231.299988
-day 11, sell 1 units at price 771.229980, investment 0.329123 %, total balance 1002.529968,
-day 21: buy 1 units at price 768.700012, total balance 233.829956
-day 27, sell 2 units at price 1578.540040, investment 5.165892 %, total balance 1812.369996,
-day 37: buy 2 units at price 1537.400024, total balance 274.969972
-day 45, sell 4 units at price 3226.600096, investment 1.907654 %, total balance 3501.570068,
-day 54: buy 3 units at price 2306.100036, total balance 1195.470032
-day 65, sell 7 units at price 5648.789797, investment -1.506149 %, total balance 6844.259829,
-day 77: buy 3 units at price 2306.100036, total balance 4538.159793
-day 86, sell 10 units at price 8386.799930, investment 1.211621 %, total balance 12924.959723,
-day 97: buy 3 units at price 2306.100036, total balance 10618.859687
-day 109, sell 13 units at price 10703.549688, investment 1.095242 %, total balance 21322.409375,
-day 120: buy 3 units at price 2306.100036, total balance 19016.309339
-day 126, sell 16 units at price 14834.080080, investment 6.048614 %, total balance 33850.389419,
-day 144: buy 3 units at price 2306.100036, total balance 31544.289383
-day 152, sell 19 units at price 18114.600456, investment -1.401312 %, total balance 49658.889839,
-day 158: buy 3 units at price 2306.100036, total balance 47352.789803
-day 168, sell 22 units at price 19947.180044, investment -5.498985 %, total balance 67299.969847,
-day 180: buy 3 units at price 2306.100036, total balance 64993.869811
-day 191, sell 25 units at price 23169.749450, investment -5.462395 %, total balance 88163.619261,
-day 201: buy 3 units at price 2306.100036, total balance 85857.519225
-day 210, sell 28 units at price 25996.600336, investment 0.406624 %, total balance 111854.119561,
-day 218: buy 3 units at price 2306.100036, total balance 109548.019525
-day 227, sell 31 units at price 29434.500000, investment 3.174002 %, total balance 138982.519525,
-day 241: buy 3 units at price 2306.100036, total balance 136676.419489
-day 251, sell 34 units at price 34867.000000, investment 3.292675 %, total balance 171543.419489,
+# buy_stock(pred, df.Close,initial_state=1,delay=4,initial_money=10000)
+day 0: buy 3 units at price 2306.100036, total balance 7693.899964
+day 11, sell 3 units at price 2313.689940, investment 0.329123 %, total balance 10007.589904,
+day 21: buy 3 units at price 2306.100036, total balance 7701.489868
+day 27, sell 3 units at price 2367.810060, investment 5.165892 %, total balance 10069.299928,
+day 37: buy 3 units at price 2306.100036, total balance 7763.199892
+day 45, sell 3 units at price 2419.950072, investment 1.907654 %, total balance 10183.149964,
+day 54: buy 3 units at price 2306.100036, total balance 7877.049928
+day 65, sell 3 units at price 2420.909913, investment -1.506149 %, total balance 10297.959841,
+day 77: buy 3 units at price 2306.100036, total balance 7991.859805
+day 86, sell 3 units at price 2516.039979, investment 1.211621 %, total balance 10507.899784,
+day 97: buy 3 units at price 2306.100036, total balance 8201.799748
+day 109, sell 3 units at price 2470.049928, investment 1.095242 %, total balance 10671.849676,
+day 120: buy 3 units at price 2306.100036, total balance 8365.749640
+day 126, sell 3 units at price 2781.390015, investment 6.048614 %, total balance 11147.139655,
+day 144: buy 3 units at price 2306.100036, total balance 8841.039619
+day 152, sell 3 units at price 2860.200072, investment -1.401312 %, total balance 11701.239691,
+day 158: buy 3 units at price 2306.100036, total balance 9395.139655
+day 168, sell 3 units at price 2720.070006, investment -5.498985 %, total balance 12115.209661,
+day 180: buy 3 units at price 2306.100036, total balance 9809.109625
+day 191, sell 3 units at price 2780.369934, investment -5.462395 %, total balance 12589.479559,
+day 201: buy 3 units at price 2306.100036, total balance 10283.379523
+day 210, sell 3 units at price 2785.350036, investment 0.406624 %, total balance 13068.729559,
+day 218: buy 3 units at price 2306.100036, total balance 10762.629523
+day 227, sell 3 units at price 2848.500000, investment 3.174002 %, total balance 13611.129523,
+day 241: buy 3 units at price 2306.100036, total balance 11305.029487
+day 251, sell 3 units at price 3076.500000, investment 3.292675 %, total balance 14381.529487,
 
-total gained 170543.419489, total investment 17054.341949 %
+total gained 4381.529487, total investment 43.815295 %
 ```
 ![alt text](output/arima-investing.png)
 
