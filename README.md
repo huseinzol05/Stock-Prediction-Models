@@ -28,6 +28,7 @@ Test performance and reliability of machine learning models from Stacking and De
  18. LSTM with Attention Scaled-Dot Recurrent Neural Network
  19. LSTM with Dilated Recurrent Neural Network
  20. Only Attention Neural Network
+ 21. Multihead Attention Neural Network
 
 #### Included simple backtracking on buying and selling decision, simple-investor-arima.ipynb
 
