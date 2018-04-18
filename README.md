@@ -27,6 +27,7 @@ Test performance and reliability of machine learning models from Stacking and De
  17. LSTM Sequence-to-Sequence with Attention Bidirectional Recurrent Neural Network
  18. LSTM with Attention Scaled-Dot Recurrent Neural Network
  19. LSTM with Dilated Recurrent Neural Network
+ 20. Only Attention Neural Network
 
 #### Included simple backtracking on buying and selling decision, simple-investor-arima.ipynb
 
