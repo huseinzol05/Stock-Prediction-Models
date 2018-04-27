@@ -35,6 +35,7 @@ Test performance and reliability of machine learning models from Stacking and De
 
 #### Included simple backtracking on buying and selling decision, simple-investor-arima.ipynb
 
+#### Included stock market study on TESLA stock, tesla-study.ipynb
 
 ## Results (not included all)
 
