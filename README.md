@@ -1,5 +1,5 @@
-# Stock-Prediction-Comparison
-Test performance and reliability of machine learning models from Stacking and Deep Learning for Stock Prediction.
+# Stock-Prediction-Models
+Gathers machine learning and deep learning models for Stock forecasting, included trading bots
 
 ## Models
 
