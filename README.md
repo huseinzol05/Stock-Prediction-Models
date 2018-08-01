@@ -45,19 +45,19 @@ Test performance and reliability of machine learning models from Stacking and De
 
 ## Results Agent
 
-signal rolling agent
+signal rolling agent, [READ MORE](simple-agent.ipynb)
 
 ```text
 total gained 185.099850, total investment 1.850998 %
 ```
 
-q-learning deep learning agent
+q-learning deep learning agent [READ MORE](q-learning-agent.ipynb)
 
 ```text
 total gained -108.630036, total investment -1.086300 %
 ```
 
-evolution strategy agent
+evolution strategy agent [READ MORE](evolution-strategy-agent.ipynb)
 
 ```text
 total gained 8240.610260, total investment 82.406103 %
