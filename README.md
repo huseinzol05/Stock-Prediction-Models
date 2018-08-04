@@ -40,6 +40,7 @@ Gathers machine learning and deep learning models for Stock forecasting, include
 1. Simple signal rolling agent
 2. Q-learning deep learning agent
 3. Evolution-strategy agent
+4. Evolution-strategy-Bayesian agent
 
 #### Included stock market study on TESLA stock, tesla-study.ipynb
 
