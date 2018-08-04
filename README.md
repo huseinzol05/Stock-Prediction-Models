@@ -62,6 +62,13 @@ evolution strategy agent [READ MORE](evolution-strategy-agent.ipynb)
 ```text
 total gained 8240.610260, total investment 82.406103 %
 ```
+
+evolution strategy with bayesian agent [READ MORE](evolution-strategy-bayesian-agent.ipynb)
+
+```text
+total gained 9221.279840, total investment 92.212798 %
+```
+
 ![alt text](output/evolution-strategy.png)
 
 ## Results signal prediction
