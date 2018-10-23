@@ -42,7 +42,9 @@ Gathers machine learning and deep learning models for Stock forecasting, include
 3. Evolution-strategy agent
 4. Evolution-strategy-Bayesian agent
 
-#### Included stock market study on TESLA stock, tesla-study.ipynb
+#### Included stock market study on TESLA stock, [tesla-study.ipynb](tesla-study.ipynb)
+
+#### Included fashion trending prediction with cross-validation, [fashion-forecasting.ipynb](fashion-forecasting.ipynb)
 
 ## Results Agent
 
