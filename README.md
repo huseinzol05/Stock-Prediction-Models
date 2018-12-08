@@ -44,30 +44,30 @@ Gathers machine learning and deep learning models for Stock forecasting, include
 
 ## Miscellaneous
 
-1. stock market study on TESLA stock, [tesla-study.ipynb](tesla-study.ipynb)
-2. fashion trending prediction with cross-validation, [fashion-forecasting.ipynb](fashion-forecasting.ipynb)
+1. stock market study on TESLA stock, [tesla-study.ipynb](misc/tesla-study.ipynb)
+2. fashion trending prediction with cross-validation, [fashion-forecasting.ipynb](misc/fashion-forecasting.ipynb)
 
 ## Results Agent
 
-signal rolling agent, [READ MORE](simple-agent.ipynb)
+signal rolling agent, [READ MORE](agent/simple-agent.ipynb)
 
 ```text
 total gained 185.099850, total investment 1.850998 %
 ```
 
-q-learning deep learning agent [READ MORE](q-learning-agent.ipynb)
+q-learning deep learning agent [READ MORE](agent/q-learning-agent.ipynb)
 
 ```text
 total gained -108.630036, total investment -1.086300 %
 ```
 
-evolution strategy agent [READ MORE](evolution-strategy-agent.ipynb)
+evolution strategy agent [READ MORE](agent/evolution-strategy-agent.ipynb)
 
 ```text
 total gained 8240.610260, total investment 82.406103 %
 ```
 
-evolution strategy with bayesian agent [READ MORE](evolution-strategy-bayesian-agent.ipynb)
+evolution strategy with bayesian agent [READ MORE](agent/evolution-strategy-bayesian-agent.ipynb)
 
 ```text
 total gained 9221.279840, total investment 92.212798 %
