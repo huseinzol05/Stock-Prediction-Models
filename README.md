@@ -46,6 +46,7 @@ Gathers machine learning and deep learning models for Stock forecasting, include
 
 1. stock market study on TESLA stock, [tesla-study.ipynb](misc/tesla-study.ipynb)
 2. fashion trending prediction with cross-validation, [fashion-forecasting.ipynb](misc/fashion-forecasting.ipynb)
+3. Bitcoin analysis with LSTM prediction, [bitcoin-analysis-lstm.ipynb](misc/bitcoin-analysis-lstm.ipynb)
 
 ## Results Agent
 
