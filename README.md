@@ -1,13 +1,22 @@
 # Stock-Prediction-Models
-Gathers machine learning and deep learning models for Stock forecasting, included trading bots
+Gathers machine learning and deep learning models for Stock forecasting, included trading bots and simulations.
 
-## Models
+## Table of contents
+  * [Models](https://github.com/huseinzol05/Stock-Prediction-Models#models)
+  * [Agents](https://github.com/huseinzol05/Stock-Prediction-Models#agents)
+  * [Data Explorations](https://github.com/huseinzol05/Stock-Prediction-Models#data-explorations)
+  * [Simulations](https://github.com/huseinzol05/Stock-Prediction-Models#simulations)
+  * [Results](https://github.com/huseinzol05/Stock-Prediction-Models#results)
 
-#### Stacking models
+## Contents
+
+### Models
+
+#### [Stacking models](stacking)
   1. Deep Feed-forward Auto-Encoder Neural Network to reduce dimension + Deep Recurrent Neural Network + ARIMA + Extreme Boosting Gradient Regressor
   2. Adaboost + Bagging + Extra Trees + Gradient Boosting + Random Forest + XGB
 
-#### Deep-learning models
+#### [Deep-learning models](deep-learning)
  1. LSTM Recurrent Neural Network
  2. Encoder-Decoder Feed-forward + LSTM Recurrent Neural Network
  3. LSTM Bidirectional Neural Network
@@ -35,22 +44,27 @@ Gathers machine learning and deep learning models for Stock forecasting, include
  25. DNC Recurrent Neural Network
  26. Residual LSTM Recurrent Neural Network
 
-## Agents
+### [Agents](agent)
 
 1. Simple signal rolling agent
 2. Q-learning deep learning agent
 3. Evolution-strategy agent
 4. Evolution-strategy-Bayesian agent
 
-## Miscellaneous
+### Data Explorations
 
 1. stock market study on TESLA stock, [tesla-study.ipynb](misc/tesla-study.ipynb)
 2. fashion trending prediction with cross-validation, [fashion-forecasting.ipynb](misc/fashion-forecasting.ipynb)
 3. Bitcoin analysis with LSTM prediction, [bitcoin-analysis-lstm.ipynb](misc/bitcoin-analysis-lstm.ipynb)
-4. Stock market prediction using Monte Carlo, [stock-forecasting-monte-carlo.ipynb](misc/stock-forecasting-monte-carlo.ipynb)
-5. Stock market prediction using Monte Carlo Markov Chain Metropolis-Hasting, [mcmc-stock-market.ipynb](misc/mcmc-stock-market.ipynb)
 
-## Results Agent
+### Simulations
+
+1. Stock market simulation using Monte Carlo, [stock-forecasting-monte-carlo.ipynb](misc/stock-forecasting-monte-carlo.ipynb)
+2. Stock market simulation using Monte Carlo Markov Chain Metropolis-Hasting, [mcmc-stock-market.ipynb](misc/mcmc-stock-market.ipynb)
+
+### Results
+
+#### Results Agent
 
 signal rolling agent, [READ MORE](agent/simple-agent.ipynb)
 
@@ -78,7 +92,7 @@ total gained 9221.279840, total investment 92.212798 %
 
 ![alt text](output/evolution-strategy.png)
 
-## Results signal prediction
+#### Results signal prediction
 
 LSTM Recurrent Neural Network
 
