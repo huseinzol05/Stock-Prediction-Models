@@ -63,6 +63,10 @@ Gathers machine learning and deep learning models for Stock forecasting, include
 1. Stock market simulation using Monte Carlo, [stock-forecasting-monte-carlo.ipynb](misc/stock-forecasting-monte-carlo.ipynb)
 2. Stock market simulation using Monte Carlo Markov Chain Metropolis-Hasting, [mcmc-stock-market.ipynb](misc/mcmc-stock-market.ipynb)
 
+### [Tensorflow-js](stock-forecasting-js)
+
+I code [LSTM Recurrent Neural Network](deep-learning/lstm.ipynb) and [Simple signal rolling agent](agent/simple-agent.ipynb) inside Tensorflow JS, you can try it here, [huseinhouse.com/stock-forecasting-js](https://huseinhouse.com/stock-forecasting-js/)
+
 ### Results
 
 #### Results Agent

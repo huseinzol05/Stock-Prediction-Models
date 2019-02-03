@@ -1,0 +1,158 @@
+
+.icon-block {
+  padding: 0 15px;
+}
+
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+.toast{
+  background-color: #fff;
+  color: #323232;
+}
+
+input[type=text].valid, input[type=number].valid{
+  border-bottom: 1px solid #90a4ae;
+  box-shadow: 0 1px 0 0 #90a4ae;
+}
+
+input:not([type]):focus:not([readonly]), input[type=text]:focus:not([readonly]), input[type=password]:focus:not([readonly]), input[type=email]:focus:not([readonly]), input[type=url]:focus:not([readonly]),
+input[type=time]:focus:not([readonly]), input[type=date]:focus:not([readonly]), input[type=datetime]:focus:not([readonly]), input[type=datetime-local]:focus:not([readonly]), input[type=tel]:focus:not([readonly]), input[type=number]:focus:not([readonly]),
+input[type=search]:focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]){
+  border-bottom: 1px solid #90a4ae;
+  box-shadow: 0 1px 0 0 #90a4ae;
+}
+
+input:not([type]):focus:not([readonly])+label, input[type=text]:focus:not([readonly])+label, input[type=password]:focus:not([readonly])+label,
+input[type=email]:focus:not([readonly])+label, input[type=url]:focus:not([readonly])+label, input[type=time]:focus:not([readonly])+label,
+input[type=date]:focus:not([readonly])+label, input[type=datetime]:focus:not([readonly])+label, input[type=datetime-local]:focus:not([readonly])+label,
+input[type=tel]:focus:not([readonly])+label, input[type=number]:focus:not([readonly])+label, input[type=search]:focus:not([readonly])+label,
+textarea.materialize-textarea:focus:not([readonly])+label{
+  color: #90a4ae;
+}
+
+.dropdown-content li>a, .dropdown-content li>span{
+  color: #90a4ae;
+}
+
+.tablescreen{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 1000;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.5);
+  display: none;
+}
+
+.card-table{
+  z-index: 10000;
+  position: fixed;
+  width: 80%;
+  padding-left: 3%;
+  padding-right: 3%;
+  height:70%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.loadingscreen, .loadingscreen-fail, .imagescreen{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 1000;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.5);
+  display: none;
+}
+
+.imagefail{
+  width: 130px;
+  height: 130px;
+  display: inherit;
+}
+
+.imagetoshow{
+  width: 700px;
+  height: 700px;
+  display: inherit;
+}
+
+.card-loading{
+  z-index: 10000;
+  position: fixed;
+  width: 20%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card-image-display{
+  width: 50%;
+}
+
+.card-image-loading{
+  margin-top: 20px;
+}
+
+.preloader-wrapper.big{
+  width: 120px;
+  height: 120px;
+}
+
+@media (max-width: 1400px){
+  .imagetoshow{
+    width: 500px;
+    height: 500px;
+    display: inherit;
+  }
+
+  .swarmplot{
+    width: 1000px;
+  }
+
+  .correlation{
+    width: 500px;
+  }
+
+}
+
+@media (max-width: 480px){
+
+  .boxplot, .heatmap, .pairplot, .swarmplot, .barplot, .correlation{
+    width: 320px;
+  }
+
+  .mobile-switch{
+    margin-top: 20px;
+    width: 50%;
+  }
+
+  h1{
+    font-size: 3.5rem;
+  }
+
+  .card-loading{
+    width: 80%;
+  }
+
+  .card-fail{
+    width: 80%;
+  }
+  .card-image-display{
+    width: 90%;
+  }
+  .imagetoshow{
+    width: 300px;
+    height: 300px;
+    display: inherit;
+  }
+}
