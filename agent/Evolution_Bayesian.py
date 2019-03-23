@@ -178,6 +178,8 @@ class Agent:
         states_buy = []
         inventory = []
         quantity = 0
+        profit = 0
+        loss = 0
         for t in range(0, l, self.skip):
             action, buy = self.act(state)
             next_state = get_state(close, t + 1, self.window_size + 1)
@@ -217,13 +219,25 @@ class Agent:
                     'day %d, sell %d units at price %f, investment %f %%, total balance %f,'
                     % (t, sell_units, total_sell, invest, initial_money)
                 )
+                if invest > 0:
+                    profit += 1
+                else:
+                    loss += 1
             state = next_state
 
         invest = ((initial_money - starting_money) / starting_money) * 100
+        ratio = (profit / (loss + profit)) * 100
         print(
             '\ntotal gained %f, total investment %f %%'
             % (initial_money - starting_money, invest)
         )
+        print(
+            'total wins %d , total losses %d, accuracy ratio: %f'
+            % (profit , loss , ratio)
+            )
+        print('left in inventory: %d' % (len(inventory)))
+        print(inventory)
+        
         plt.figure(figsize = (20, 10))
         plt.plot(close, label = 'true close', c = 'g')
         plt.plot(
@@ -290,10 +304,9 @@ NN_BAYESIAN = BayesianOptimization(
         'size_network': (10, 1000),#10,1000
     },
 )
-NN_BAYESIAN.maximize(init_points = 30, n_iter = 50, acq = 'ei', xi = 0.0)#n_iter=50 init_points=30
+NN_BAYESIAN.maximize(init_points = 50, n_iter = 200, acq = 'ei', xi = 0.0)#n_iter=50 init_points=30
 
 
-print(NN_BAYESIAN.res)
 print('----------------------------------------------')
 print(NN_BAYESIAN.max)
 
