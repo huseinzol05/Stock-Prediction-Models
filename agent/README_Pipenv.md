@@ -1,4 +1,4 @@
-Using Pipenv with this Pipfile will get you the proper bayesian_optimization package as well as jupyter notebook kernel to work with it. Commands to get started:
+Using Pipenv with the Pipfile I included in this directory will get you the proper bayesian_optimization package as well as jupyter notebook kernel to work with it. Commands to get started:
 
 **pipenv --python 3.7.2**
 
