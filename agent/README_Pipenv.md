@@ -16,3 +16,5 @@ Replace "my-virtualenv-name" with the name of your pipenv environment. You can s
 Then you can:
 
 **jupyter notebook --ip=127.0.0.1**
+
+Don't forget to switch to the custom agent kernel once the notebook opens.
