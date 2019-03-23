@@ -101,16 +101,16 @@ total gained -108.630036, total investment -1.086300 %
 evolution strategy agent [READ MORE](agent/evolution-strategy-agent.ipynb)
 
 ```text
-total gained 8240.610260, total investment 82.406103 %
+total gained 11037.529911, total investment 110.375299 %
 ```
 
 evolution strategy with bayesian agent [READ MORE](agent/evolution-strategy-bayesian-agent.ipynb)
 
 ```text
-total gained 9221.279840, total investment 92.212798 %
+total gained 13295.469683, total investment 132.954697 %
 ```
 
-![alt text](output/evolution-strategy.png)
+![alt text](output/tesla-nes.png)
 
 #### Results signal prediction
 
