@@ -68,6 +68,7 @@
 
 ### Data Explorations
 
+0. Downloader usage: `python downloader_crypto.py bitmex BTC/USD 2015-01-01T00:00:00Z 1d btc.csv`
 1. stock market study on TESLA stock, [tesla-study.ipynb](misc/tesla-study.ipynb)
 2. fashion trending prediction with cross-validation, [fashion-forecasting.ipynb](misc/fashion-forecasting.ipynb)
 3. Bitcoin analysis with LSTM prediction, [bitcoin-analysis-lstm.ipynb](misc/bitcoin-analysis-lstm.ipynb)
