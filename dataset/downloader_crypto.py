@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# usage: python downloader_crypto.py bitmex BTC/USD 2015-01-01T00:00:00Z 1d btc.csv
+# usage: python downloader_crypto.py bitmex BTC/USD 2015-01-01T00:00:00Z 1d btcusd.csv
 
 import os
 import sys
