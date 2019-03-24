@@ -6,12 +6,8 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
+ccxt = "*"
 pprint = "*"
-matplotlib = "*"
-bayesian_optimization = "<1.0"
-pandas = "*"
-seaborn = "*"
-ipykernel = "*"
 
 [requires]
 python_version = "3.7"
