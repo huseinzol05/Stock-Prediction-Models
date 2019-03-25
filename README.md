@@ -72,6 +72,7 @@
 2. fashion trending prediction with cross-validation, [fashion-forecasting.ipynb](misc/fashion-forecasting.ipynb)
 3. Bitcoin analysis with LSTM prediction, [bitcoin-analysis-lstm.ipynb](misc/bitcoin-analysis-lstm.ipynb)
 4. Outliers study using K-means, SVM, and Gaussian on TESLA stock [outliers.ipynb](misc/outliers.ipynb)
+5. Kijang Emas Bank Negara, (kijang-emas-bank-negara.ipynb)[misc/kijang-emas-bank-negara.ipynb]
 
 ### Simulations
 
