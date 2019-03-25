@@ -8,6 +8,9 @@ from bayes_opt import BayesianOptimization
 from crypto_data_loader import get_candles
 sns.set()
 
+use_csv = False
+
+
 def get_state(data, t, n):
     d = t - n + 1
     block = data[d : t + 1] if d >= 0 else -d * [data[0]] + data[0 : t + 1]
@@ -292,7 +295,10 @@ timeframe = '1d'
 
 #---------------------------------------------------
 ##Get Data
-df = get_candles(exchange , 3 , symbol ,timeframe , start_date ,25) #df = pd.read_csv('../dataset/GOOG-year.csv')
+if use_csv:
+    df = pd.read_csv('../dataset/btcusd.csv')
+else:
+    df = get_candles(exchange , 3 , symbol ,timeframe , start_date ,25) #df = pd.read_csv('../dataset/GOOG-year.csv')
 print(df)
 
 close = df.Close.values.tolist()
