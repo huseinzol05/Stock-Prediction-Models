@@ -5,6 +5,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import random
 from bayes_opt import BayesianOptimization
+import os, sys
+sys.path.insert(1, os.path.join(sys.path[0], '../dataset'))
 from crypto_data_loader import get_candles
 sns.set()
 
