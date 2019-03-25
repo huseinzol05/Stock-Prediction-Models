@@ -12,6 +12,7 @@ pandas = "*"
 seaborn = "*"
 bayesian-optimization = "*"
 matplotlib = "*"
+ccxt = "*"
 
 [requires]
 python_version = "3.7"
