@@ -5,6 +5,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import random
 from bayes_opt import BayesianOptimization
+from crypto_data_loader import get_candles
 sns.set()
 
 def get_state(data, t, n):
@@ -14,15 +15,6 @@ def get_state(data, t, n):
     for i in range(n - 1):
         res.append(block[i + 1] - block[i])
     return np.array([res])
-
-df = pd.read_csv('../dataset/GOOG-year.csv')
-print(df.tail())
-
-close = df.Close.values.tolist()
-window_size = 30
-skip = 5
-l = len(close) - 1
-
 
 class Deep_Evolution_Strategy:
 
@@ -291,20 +283,38 @@ def find_best_agent(
     if investment > accbest:
         costbest = investment
     return investment
+##--------------------------------------------------
+##Settings (Later as argv)
+exchange = 'bitmex'
+symbol = 'BTC/USD'
+start_date = '2018-01-01T00:00:00Z'
+timeframe = '1d'
 
+#---------------------------------------------------
+##Get Data
+df = get_candles(exchange , 3 , symbol ,timeframe , start_date ,25) #df = pd.read_csv('../dataset/GOOG-year.csv')
+print(df)
+
+close = df.Close.values.tolist()
+window_size = 30
+skip = 5
+l = len(close) - 1
+
+##----------------------------------------------------
+## Bayesian Stuff
 accbest = 0.0
 NN_BAYESIAN = BayesianOptimization(
     find_best_agent,
     {
-        'window_size': (2, 50),#2,50
-        'skip': (1, 15), #1,15
-        'population_size': (1, 50),#1,50
+        'window_size': (2, 50),#standard: 2,50
+        'skip': (1, 15), #standard: 1,15
+        'population_size': (1, 50),#standard: 1,50
         'sigma': (0.01, 0.99),
-        'learning_rate': (0.000001, 0.49),#0.000001 , 0.49
-        'size_network': (10, 1000),#10,1000
+        'learning_rate': (0.000001, 0.49),#standard: 0.000001 , 0.49
+        'size_network': (10, 1000),#standard: 10,1000
     },
 )
-NN_BAYESIAN.maximize(init_points = 50, n_iter = 200, acq = 'ei', xi = 0.0)#n_iter=50 init_points=30
+NN_BAYESIAN.maximize(init_points = 50, n_iter = 80, acq = 'ei', xi = 0.0)#standard: init_points=30 n_iter=50
 
 
 print('----------------------------------------------')
@@ -321,6 +331,6 @@ best_agent(int(params['window_size']), int(params['skip']),
 model = Model(int(params['window_size']) , int(params['size_network']) ,3)
 agent = Agent(int(params['population_size']) , params['sigma'] , params['learning_rate'] , model , 10000 , 5 , 5, int(params['skip']),int(params['window_size']))
 
-agent.fit(500, 100)
+agent.fit(500, 50)
 
 agent.buy()
