@@ -4,7 +4,7 @@ Using Pipenv with the Pipfile I included in this directory will get you the prop
 
 **pipenv shell**
 
-** pipenv install ipykernel**
+**pipenv install ipykernel**
 
 **pipenv sync**
 
