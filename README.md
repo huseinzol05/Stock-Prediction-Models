@@ -66,7 +66,7 @@
 3. Evolution-strategy agent
 4. Evolution-strategy-Bayesian agent
 
-### Data Explorations
+### [Data Explorations](misc)
 
 1. stock market study on TESLA stock, [tesla-study.ipynb](misc/tesla-study.ipynb)
 2. fashion trending prediction with cross-validation, [fashion-forecasting.ipynb](misc/fashion-forecasting.ipynb)
@@ -74,10 +74,10 @@
 4. Outliers study using K-means, SVM, and Gaussian on TESLA stock [outliers.ipynb](misc/outliers.ipynb)
 5. Kijang Emas Bank Negara, [kijang-emas-bank-negara.ipynb](misc/kijang-emas-bank-negara.ipynb)
 
-### Simulations
+### [Simulations](simulation)
 
-1. Stock market simulation using Monte Carlo, [stock-forecasting-monte-carlo.ipynb](misc/stock-forecasting-monte-carlo.ipynb)
-2. Stock market simulation using Monte Carlo Markov Chain Metropolis-Hasting, [mcmc-stock-market.ipynb](misc/mcmc-stock-market.ipynb)
+1. Stock market simulation using Monte Carlo, [stock-forecasting-monte-carlo.ipynb](simulation/stock-forecasting-monte-carlo.ipynb)
+2. Stock market simulation using Monte Carlo Markov Chain Metropolis-Hasting, [mcmc-stock-market.ipynb](simulation/mcmc-stock-market.ipynb)
 
 ### [Tensorflow-js](stock-forecasting-js)
 
@@ -87,25 +87,37 @@ I code [LSTM Recurrent Neural Network](deep-learning/1.lstm.ipynb) and [Simple s
 
 #### Results Agent
 
-signal rolling agent, [READ MORE](agent/simple-agent.ipynb)
+moving average agent, [moving-average-agent.ipynb](agent/moving-average-agent.ipynb)
 
 ```text
-total gained 185.099850, total investment 1.850998 %
+total gained 601.809265, total investment 6.018093 %
 ```
 
-q-learning deep learning agent [READ MORE](agent/q-learning-agent.ipynb)
+turtle strategy agent, [turtle-agent.ipynb](agent/turtle-agent.ipynb)
 
 ```text
-total gained -108.630036, total investment -1.086300 %
+total gained 1475.280098, total investment 14.752801 %
 ```
 
-evolution strategy agent [READ MORE](agent/evolution-strategy-agent.ipynb)
+signal rolling agent, [signal-rolling-agent.ipynb](agent/signal-rolling-agent.ipynb)
+
+```text
+total gained 1791.480397, total investment 17.914804 %
+```
+
+q-learning deep learning agent [q-learning-agent.ipynb](agent/q-learning-agent.ipynb)
+
+```text
+total gained 103.330018, total investment 1.033300 %
+```
+
+evolution strategy agent [evolution-strategy-agent.ipynb](agent/evolution-strategy-agent.ipynb)
 
 ```text
 total gained 11037.529911, total investment 110.375299 %
 ```
 
-evolution strategy with bayesian agent [READ MORE](agent/evolution-strategy-bayesian-agent.ipynb)
+evolution strategy with bayesian agent [evolution-strategy-bayesian-agent.ipynb](agent/evolution-strategy-bayesian-agent.ipynb)
 
 ```text
 total gained 13295.469683, total investment 132.954697 %
