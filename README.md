@@ -61,10 +61,12 @@
 
 ### [Agents](agent)
 
-1. Simple signal rolling agent
-2. Q-learning deep learning agent
-3. Evolution-strategy agent
-4. Evolution-strategy-Bayesian agent
+1. Moving average agent
+2. Turtle strategy agent
+3. Simple signal rolling agent
+4. Q-learning deep learning agent
+5. Evolution-strategy agent
+6. Evolution-strategy-Bayesian agent
 
 ### [Data Explorations](misc)
 
