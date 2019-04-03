@@ -96,27 +96,27 @@ I code [LSTM Recurrent Neural Network](deep-learning/1.lstm.ipynb) and [Simple s
 
 1. Turtle-trading agent
 
-<img src="output/turtle-agent.png" width="30%" align="left"><br>
+![alt text](output/turtle-agent.png)
 
 2. Moving-average agent
 
-<img src="output/moving-average-agent.png" width="30%" align="left"><br>
+![alt text](output/moving-average-agent.png)
 
 3. Signal rolling agent
 
-<img src="output/signal-rolling-agent.png" width="30%" align="left"><br>
+![alt text](output/signal-rolling-agent.png)
 
 4. Policy-gradient agent
 
-<img src="output/policy-gradient-agent.png" width="30%" align="left"><br>
+![alt text](output/policy-gradient-agent.png)
 
 5. Q-learning agent
 
-<img src="output/q-learning-agent.png" width="30%" align="left"><br>
+![alt text](output/q-learning-agent.png)
 
 6. Evolution-strategy agent
 
-<img src="output/evolution-strategy-agent.png" width="30%" align="left"><br>
+![alt text](output/evolution-strategy-agent.png)
 
 ### Results free agent
 
