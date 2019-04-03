@@ -94,29 +94,29 @@ I code [LSTM Recurrent Neural Network](deep-learning/1.lstm.ipynb) and [Simple s
 
 **This agent only able to buy or sell 1 unit per transaction.**
 
-1. Turtle-trading agent
+1. Turtle-trading agent, [turtle-agent.ipynb](agent/1.turtle-agent.ipynb)
 
 <img src="output/turtle-agent.png" width="70%" align="">
 
-2. Moving-average agent
+2. Moving-average agent, [moving-average-agent.ipynb](agent/2.moving-average-agent.ipynb)
 
-![alt text](output/moving-average-agent.png)
+<img src="output/moving-average-agent.png" width="70%" align="">
 
-3. Signal rolling agent
+3. Signal rolling agent, [signal-rolling-agent.ipynb](agent/3.signal-rolling-agent.ipynb)
 
-![alt text](output/signal-rolling-agent.png)
+<img src="output/signal-rolling-agent.png" width="70%" align="">
 
-4. Policy-gradient agent
+4. Policy-gradient agent, [policy-gradient-agent.ipynb](agent/4.policy-gradient-agent.ipynb)
 
-![alt text](output/policy-gradient-agent.png)
+<img src="output/policy-gradient-agent.png" width="70%" align="">
 
-5. Q-learning agent
+5. Q-learning agent, [q-learning-agent.ipynb](agent/5.q-learning-agent.ipynb)
 
-![alt text](output/q-learning-agent.png)
+<img src="output/q-learning-agent.png" width="70%" align="">
 
-6. Evolution-strategy agent
+6. Evolution-strategy agent, [evolution-strategy-agent.ipynb](agent/6.evolution-strategy-agent.ipynb)
 
-![alt text](output/evolution-strategy-agent.png)
+<img src="output/evolution-strategy-agent.png" width="70%" align="">
 
 ### Results free agent
 
@@ -134,42 +134,42 @@ evolution strategy with bayesian agent [evolution-strategy-bayesian-agent.ipynb]
 total gained 13295.469683, total investment 132.954697 %
 ```
 
-![alt text](output/tesla-nes.png)
+<img src="output/tesla-nes.png" width="70%" align="">
 
 ### Results signal prediction
 
 LSTM Recurrent Neural Network
 
-![alt text](https://raw.githubusercontent.com/huseinzol05/Stock-Prediction-Comparison/master/output/rnn-only.png)
+<img src="output/rnn-only.png" width="70%" align="">
 
 LSTM Bidirectional Neural Network
 
-![alt text](https://raw.githubusercontent.com/huseinzol05/Stock-Prediction-Comparison/master/output/download%20(1).png)
+<img src="https://raw.githubusercontent.com/huseinzol05/Stock-Prediction-Comparison/master/output/download%20(1).png" width="70%" align="">
 
 2-Path LSTM Recurrent Neural Network
 
-![alt text](https://raw.githubusercontent.com/huseinzol05/Stock-Prediction-Comparison/master/output/download.png)
+<img src="output/download.png" width="70%" align="">
 
 Deep Feed-forward Auto-Encoder Neural Network to reduce dimension + Deep Recurrent Neural Network + ARIMA + Extreme Boosting Gradient Regressor
 
-![alt text](https://raw.githubusercontent.com/huseinzol05/Stock-Prediction-Comparison/master/output/stack-xgb.png)
+<img src="output/stack-xgb.png" width="70%" align="">
 
 LSTM Sequence-to-Sequence Recurrent Neural Network
 
-![alt text](output/lstm-seq2seq.png)
+<img src="output/lstm-seq2seq.png" width="70%" align="">
 
 LSTM Sequence-to-Sequence with Attention Recurrent Neural Network
 
-![alt text](output/lstm-seq2seq-attention.png)
+<img src="output/lstm-seq2seq-attention.png" width="70%" align="">
 
 LSTM Sequence-to-Sequence with Attention Bidirectional Recurrent Neural Network
 
-![alt text](output/lstm-seq2seq-bidirectional-attention.png)
+<img src="output/lstm-seq2seq-bidirectional-attention.png" width="70%" align="">
 
 Encoder-Decoder Feed-forward + LSTM Recurrent Neural Network
 
-![alt text](https://raw.githubusercontent.com/huseinzol05/Stock-Prediction-Comparison/master/output/encoder-rnn.png)
+<img src="output/encoder-rnn.png" width="70%" align="">
 
 Adaboost + Bagging + Extra Trees + Gradient Boosting + Random Forest + XGB
 
-![alt text](https://raw.githubusercontent.com/huseinzol05/Stock-Prediction-Comparison/master/output/stack-ensemble.png)
+<img src="output/stack-ensemble.png" width="70%" align="">
