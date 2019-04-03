@@ -58,6 +58,9 @@
  24. LSTM with Bahdanau + Luong Attention
  25. DNC Recurrent Neural Network
  26. Residual LSTM Recurrent Neural Network
+ 27. Byte-net
+ 28. Attention is all you need
+ 29. Fairseq
 
 ### [Agents](agent)
 
