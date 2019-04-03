@@ -64,12 +64,12 @@
 
 ### [Agents](agent)
 
-1. Moving average agent
-2. Turtle strategy agent
-3. Simple signal rolling agent
-4. Q-learning deep learning agent
-5. Evolution-strategy agent
-6. Evolution-strategy-Bayesian agent
+1. Turtle-trading agent
+2. Moving-average agent
+3. Signal rolling agent
+4. Policy-gradient agent
+5. Q-learning agent
+6. Evolution-strategy agent
 
 ### [Data Explorations](misc)
 
@@ -88,41 +88,47 @@
 
 I code [LSTM Recurrent Neural Network](deep-learning/1.lstm.ipynb) and [Simple signal rolling agent](agent/simple-agent.ipynb) inside Tensorflow JS, you can try it here, [huseinhouse.com/stock-forecasting-js](https://huseinhouse.com/stock-forecasting-js/)
 
-### Results
+## Results
 
-#### Results Agent
+### Results Agent
 
-moving average agent, [moving-average-agent.ipynb](agent/moving-average-agent.ipynb)
+**This agent only able to buy or sell 1 unit per transaction.**
 
-```text
-total gained 601.809265, total investment 6.018093 %
-```
+1. Turtle-trading agent
 
-turtle strategy agent, [turtle-agent.ipynb](agent/turtle-agent.ipynb)
+<img src="output/turtle-agent.png" width="30%" align="left"><br>
 
-```text
-total gained 1475.280098, total investment 14.752801 %
-```
+2. Moving-average agent
 
-signal rolling agent, [signal-rolling-agent.ipynb](agent/signal-rolling-agent.ipynb)
+<img src="output/moving-average-agent.png" width="30%" align="left"><br>
 
-```text
-total gained 1791.480397, total investment 17.914804 %
-```
+3. Signal rolling agent
 
-q-learning deep learning agent [q-learning-agent.ipynb](agent/q-learning-agent.ipynb)
+<img src="output/signal-rolling-agent.png" width="30%" align="left"><br>
 
-```text
-total gained 103.330018, total investment 1.033300 %
-```
+4. Policy-gradient agent
 
-evolution strategy agent [evolution-strategy-agent.ipynb](agent/evolution-strategy-agent.ipynb)
+<img src="output/policy-gradient-agent.png" width="30%" align="left"><br>
+
+5. Q-learning agent
+
+<img src="output/q-learning-agent.png" width="30%" align="left"><br>
+
+6. Evolution-strategy agent
+
+<img src="output/evolution-strategy-agent.png" width="30%" align="left"><br>
+
+### Results free agent
+
+**This agent able to buy or sell N-units per transaction.**
+
+evolution strategy agent [evolution-strategy-agent.ipynb](free-agent/evolution-strategy-agent.ipynb)
 
 ```text
 total gained 11037.529911, total investment 110.375299 %
 ```
 
-evolution strategy with bayesian agent [evolution-strategy-bayesian-agent.ipynb](agent/evolution-strategy-bayesian-agent.ipynb)
+evolution strategy with bayesian agent [evolution-strategy-bayesian-agent.ipynb](free-agent/evolution-strategy-bayesian-agent.ipynb)
 
 ```text
 total gained 13295.469683, total investment 132.954697 %
@@ -130,7 +136,7 @@ total gained 13295.469683, total investment 132.954697 %
 
 ![alt text](output/tesla-nes.png)
 
-#### Results signal prediction
+### Results signal prediction
 
 LSTM Recurrent Neural Network
 
