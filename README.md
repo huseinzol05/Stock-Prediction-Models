@@ -72,6 +72,11 @@
 6. Evolution-strategy agent
 7. Double Q-learning agent
 8. Recurrent Q-learning agent
+9. Double Recurrent Q-learning agent
+10. Duel Q-learning agent
+11. Double Duel Q-learning agent
+12. Duel Recurrent Q-learning agent
+13. Double Duel Recurrent Q-learning agent
 
 ### [Data Explorations](misc)
 
@@ -127,6 +132,26 @@ I code [LSTM Recurrent Neural Network](deep-learning/1.lstm.ipynb) and [Simple s
 8. Recurrent Q-learning agent, [recurrent-q-learning-agent.ipynb](agent/8.recurrent-q-learning-agent.ipynb)
 
 <img src="output/recurrent-q-learning-agent.png" width="70%" align="">
+
+9. Double Recurrent Q-learning agent, [double-recurrent-q-learning-agent.ipynb](agent/9.double-recurrent-q-learning-agent.ipynb)
+
+<img src="output/double-recurrent-q-learning.png" width="70%" align="">
+
+10. Duel Q-learning agent, [duel-q-learning-agent.ipynb](agent/10.duel-q-learning-agent.ipynb)
+
+<img src="output/double-q-learning.png" width="70%" align="">
+
+11. Double Duel Q-learning agent, [double-duel-q-learning-agent.ipynb](agent/11.double-duel-q-learning-agent.ipynb)
+
+<img src="output/double-duel-q-learning.png" width="70%" align="">
+
+12. Duel Recurrent Q-learning agent, [duel-recurrent-q-learning-agent.ipynb](agent/12.duel-recurrent-q-learning-agent.ipynb)
+
+<img src="output/duel-recurrent-q-learning.png" width="70%" align="">
+
+13. Double Duel Recurrent Q-learning agent, [double-duel-recurrent-q-learning-agent.ipynb](agent/13.double-duel-recurrent-q-learning-agent.ipynb)
+
+<img src="output/double-duel-recurrent-q-learning.png" width="70%" align="">
 
 ### Results free agent
 
