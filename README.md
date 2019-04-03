@@ -70,6 +70,8 @@
 4. Policy-gradient agent
 5. Q-learning agent
 6. Evolution-strategy agent
+7. Double Q-learning agent
+8. Recurrent Q-learning agent
 
 ### [Data Explorations](misc)
 
@@ -117,6 +119,14 @@ I code [LSTM Recurrent Neural Network](deep-learning/1.lstm.ipynb) and [Simple s
 6. Evolution-strategy agent, [evolution-strategy-agent.ipynb](agent/6.evolution-strategy-agent.ipynb)
 
 <img src="output/evolution-strategy-agent.png" width="70%" align="">
+
+7. Double Q-learning agent, [double-q-learning-agent.ipynb](agent/7.double-q-learning-agent.ipynb)
+
+<img src="output/double-q-learning.png" width="70%" align="">
+
+8. Recurrent Q-learning agent, [recurrent-q-learning-agent.ipynb](agent/8.recurrent-q-learning-agent.ipynb)
+
+<img src="output/recurrent-q-learning-agent.png" width="70%" align="">
 
 ### Results free agent
 
