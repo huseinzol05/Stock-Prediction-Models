@@ -96,7 +96,7 @@ I code [LSTM Recurrent Neural Network](deep-learning/1.lstm.ipynb) and [Simple s
 
 1. Turtle-trading agent
 
-![alt text](output/turtle-agent.png)
+<img src="output/turtle-agent.png" width="70%" align="">
 
 2. Moving-average agent
 
