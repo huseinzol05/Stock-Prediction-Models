@@ -1,15 +1,7 @@
 <p align="center">
     <a href="#readme">
-        <img alt="logo" width="60%" src="output/evolution-strategy.png">
+        <img alt="logo" width="50%" src="output/evolution-strategy.png">
     </a>
-</p>
-<p align="center">
-  <a href="https://github.com/huseinzol05/Stock-Prediction-Models/blob/master/LICENSE"><img alt="MIT License" src="https://img.shields.io/badge/License-MIT-yellow.svg"></a>
-  <a href="#"><img src="https://img.shields.io/badge/features-models-green.svg"></a>
-  <a href="#"><img src="https://img.shields.io/badge/features-agents-green.svg"></a>
-  <a href="#"><img src="https://img.shields.io/badge/features-eda-green.svg"></a>
-  <a href="#"><img src="https://img.shields.io/badge/features-simulations-green.svg"></a>
-  <a href="#"><img src="https://img.shields.io/badge/features-JS-green.svg"></a>
 </p>
 
 ---
