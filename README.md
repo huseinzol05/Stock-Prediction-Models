@@ -132,7 +132,7 @@ I code [LSTM Recurrent Neural Network](deep-learning/1.lstm.ipynb) and [Simple s
 
 8. Recurrent Q-learning agent, [recurrent-q-learning-agent.ipynb](agent/8.recurrent-q-learning-agent.ipynb)
 
-<img src="output-agent/recurrent-q-learning-agent.png" width="70%" align="">
+<img src="output-agent/recurrent-q-learning.png" width="70%" align="">
 
 9. Double Recurrent Q-learning agent, [double-recurrent-q-learning-agent.ipynb](agent/9.double-recurrent-q-learning-agent.ipynb)
 
