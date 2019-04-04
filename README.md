@@ -69,6 +69,7 @@
 11. Double Duel Q-learning agent
 12. Duel Recurrent Q-learning agent
 13. Double Duel Recurrent Q-learning agent
+14. Actor-critic agent
 
 ### [Data Explorations](misc)
 
@@ -144,6 +145,10 @@ I code [LSTM Recurrent Neural Network](deep-learning/1.lstm.ipynb) and [Simple s
 13. Double Duel Recurrent Q-learning agent, [double-duel-recurrent-q-learning-agent.ipynb](agent/13.double-duel-recurrent-q-learning-agent.ipynb)
 
 <img src="output/double-duel-recurrent-q-learning.png" width="70%" align="">
+
+14. Actor-critic agent, [actor-critic-agent.ipynb](agent/14.actor-critic-agent.ipynb)
+
+<img src="output/actor-critic.png" width="70%" align="">
 
 ### Results free agent
 
