@@ -78,6 +78,7 @@
 20. Duel Curiosity Q-learning agent
 21. Neuro-evolution agent
 22. Neuro-evolution with Novelty search agent
+23. ABCD strategy agent
 
 ### [Data Explorations](misc)
 
@@ -189,6 +190,10 @@ I code [LSTM Recurrent Neural Network](deep-learning/1.lstm.ipynb) and [Simple s
 22. Neuro-evolution with Novelty search agent, [neuro-evolution-novelty-search.ipynb](agent/22.neuro-evolution-novelty-search-agent.ipynb)
 
 <img src="output-agent/neuro-evolution-novelty-search.png" width="70%" align="">
+
+23. ABCD strategy agent, [abcd-strategy.ipynb](agent/23.abcd-strategy-agent.ipynb)
+
+<img src="output-agent/abcd-strategy.png" width="70%" align="">
 
 ### Results free agent
 
