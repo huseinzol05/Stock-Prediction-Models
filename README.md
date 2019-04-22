@@ -53,6 +53,7 @@
  27. Byte-net
  28. Attention is all you need
  29. Fairseq
+ 30. Dilation CNN + LSTM RNN
 
 ### [Agents](agent)
 
