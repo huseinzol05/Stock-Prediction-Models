@@ -8,6 +8,7 @@
   <a href="#"><img src="https://img.shields.io/badge/deeplearning-30--models-success.svg"></a>
   <a href="#"><img src="https://img.shields.io/badge/agent-23--models-success.svg"></a>
 </p>
+
 ---
 
 **Stock-Prediction-Models**, Gathers machine learning and deep learning models for Stock forecasting, included trading bots and simulations.
