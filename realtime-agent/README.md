@@ -1,4 +1,4 @@
-## How-to
+## How-to, this model based on [evolution-strategy](https://github.com/huseinzol05/Stock-Prediction-Models/tree/master/agent)
 
 1. You can check [agent.ipynb](agent.ipynb) for to train an evolutio strategy to do realtime trading.
 
