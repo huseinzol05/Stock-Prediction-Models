@@ -2,6 +2,23 @@
 
 1. You can check [agent.ipynb](agent.ipynb) for to train an evolutio strategy to do realtime trading.
 
+I trained the model to learn trading on different stocks,
+
+```python
+['TWTR.csv',
+ 'GOOG.csv',
+ 'FB.csv',
+ 'LB.csv',
+ 'MTDR.csv',
+ 'CPRT.csv',
+ 'FSV.csv',
+ 'TSLA.csv',
+ 'SINA.csv',
+ 'GWR.csv']
+```
+
+You might want to add more to cover more stochastic patterns.
+
 2. Run [app.py](app.py) to serve the checkpoint model using Flask,
 
 ```bash
@@ -18,6 +35,10 @@ python3 app.py
 ```
 
 3. You can check requests example in [request.ipynb](request.ipynb) to get a kickstart.
+
+```bash
+curl http://localhost:8005/trade?data=[13.1, 13407500]
+```
 
 ```python
 {'action': 'sell', 'balance': 971.1199990000001, 'investment': '10.224268 %', 'status': 'sell 1 unit, price 16.709999', 'timestamp': '2019-05-26 01:12:10.370206'}
