@@ -50,3 +50,7 @@ curl http://localhost:8005/trade?data=[13.1, 13407500]
 {'action': 'nothing', 'balance': 1006.1299990000001, 'status': 'do nothing', 'timestamp': '2019-05-26 01:12:10.405804'}
 {'action': 'nothing', 'balance': 1006.1299990000001, 'status': 'do nothing', 'timestamp': '2019-05-26 01:12:10.411531'}
 ```
+
+## Notes
+
+1. You can use this code to integrate with realtime socket, or any APIs you wanted, imagination is your limit now.
