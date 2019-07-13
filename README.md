@@ -19,6 +19,7 @@
   * [Realtime Agent](realtime-agent)
   * [Data Explorations](https://github.com/huseinzol05/Stock-Prediction-Models#data-explorations)
   * [Simulations](https://github.com/huseinzol05/Stock-Prediction-Models#simulations)
+  * [Tensorflow-js](https://github.com/huseinzol05/Stock-Prediction-Models#tensorflow-js)
   * [Misc](https://github.com/huseinzol05/Stock-Prediction-Models#misc)
   * [Results](https://github.com/huseinzol05/Stock-Prediction-Models#results)
     * [Results Agent](https://github.com/huseinzol05/Stock-Prediction-Models#results-agent)
