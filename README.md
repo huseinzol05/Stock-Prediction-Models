@@ -21,6 +21,10 @@
   * [Simulations](https://github.com/huseinzol05/Stock-Prediction-Models#simulations)
   * [Misc](https://github.com/huseinzol05/Stock-Prediction-Models#misc)
   * [Results](https://github.com/huseinzol05/Stock-Prediction-Models#results)
+    * [Results Agent](https://github.com/huseinzol05/Stock-Prediction-Models#results-agent)
+    * [Results signal prediction](https://github.com/huseinzol05/Stock-Prediction-Models#results-signal-prediction)
+    * [Results analysis](https://github.com/huseinzol05/Stock-Prediction-Models#results-analysis)
+    * [Results simulation](https://github.com/huseinzol05/Stock-Prediction-Models#results-simulation)
 
 ## Contents
 
@@ -262,3 +266,23 @@ Encoder-Decoder Feed-forward + LSTM Recurrent Neural Network
 Adaboost + Bagging + Extra Trees + Gradient Boosting + Random Forest + XGB
 
 <img src="output/stack-ensemble.png" width="70%" align="">
+
+### Results analysis
+
+Outliers study using K-means, SVM, and Gaussian on TESLA stock
+
+<img src="misc/outliers.png" width="70%" align="">
+
+Overbought-Oversold study on TESLA stock
+
+<img src="misc/overbought-oversold.png" width="70%" align="">
+
+### Results simulation
+
+Stock market simulation using Monte Carlo
+
+<img src="simulation/monte-carlo.png" width="70%" align="">
+
+Stock market simulation using Monte Carlo Markov Chain Metropolis-Hasting
+
+<img src="simulation/mcmc.png" width="70%" align="">
