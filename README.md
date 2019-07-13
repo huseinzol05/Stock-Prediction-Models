@@ -97,11 +97,13 @@
 1. stock market study on TESLA stock, [tesla-study.ipynb](misc/tesla-study.ipynb)
 2. Outliers study using K-means, SVM, and Gaussian on TESLA stock, [outliers.ipynb](misc/outliers.ipynb)
 3. Overbought-Oversold study on TESLA stock, [overbought-oversold.ipynb](misc/overbought-oversold.ipynb)
+4. Which stock you need to buy? [which-stock.ipynb](misc/which-stock.ipynb)
 
 ### [Simulations](simulation)
 
 1. Stock market simulation using Monte Carlo, [stock-forecasting-monte-carlo.ipynb](simulation/stock-forecasting-monte-carlo.ipynb)
 2. Stock market simulation using Monte Carlo Markov Chain Metropolis-Hasting, [mcmc-stock-market.ipynb](simulation/mcmc-stock-market.ipynb)
+3. Portfolio optimization, [portfolio-optimization.ipynb](simulation/portfolio-optimization.ipynb), inspired from https://pythonforfinance.net/2017/01/21/investment-portfolio-optimisation-with-python/
 
 ### [Tensorflow-js](stock-forecasting-js)
 
@@ -231,58 +233,68 @@ total gained 13295.469683, total investment 132.954697 %
 
 ### Results signal prediction
 
-LSTM Recurrent Neural Network
+_**Not included all, each notebooks already rendered the result.**_
+
+1. LSTM Recurrent Neural Network
 
 <img src="output/rnn-only.png" width="70%" align="">
 
-LSTM Bidirectional Neural Network
+2. LSTM Bidirectional Neural Network
 
 <img src="https://raw.githubusercontent.com/huseinzol05/Stock-Prediction-Comparison/master/output/download%20(1).png" width="70%" align="">
 
-2-Path LSTM Recurrent Neural Network
+3. 2-Path LSTM Recurrent Neural Network
 
 <img src="output/download.png" width="70%" align="">
 
-Deep Feed-forward Auto-Encoder Neural Network to reduce dimension + Deep Recurrent Neural Network + ARIMA + Extreme Boosting Gradient Regressor
+4. Deep Feed-forward Auto-Encoder Neural Network to reduce dimension + Deep Recurrent Neural Network + ARIMA + Extreme Boosting Gradient Regressor
 
 <img src="output/stack-xgb.png" width="70%" align="">
 
-LSTM Sequence-to-Sequence Recurrent Neural Network
+5. LSTM Sequence-to-Sequence Recurrent Neural Network
 
 <img src="output/lstm-seq2seq.png" width="70%" align="">
 
-LSTM Sequence-to-Sequence with Attention Recurrent Neural Network
+6. LSTM Sequence-to-Sequence with Attention Recurrent Neural Network
 
 <img src="output/lstm-seq2seq-attention.png" width="70%" align="">
 
-LSTM Sequence-to-Sequence with Attention Bidirectional Recurrent Neural Network
+7. LSTM Sequence-to-Sequence with Attention Bidirectional Recurrent Neural Network
 
 <img src="output/lstm-seq2seq-bidirectional-attention.png" width="70%" align="">
 
-Encoder-Decoder Feed-forward + LSTM Recurrent Neural Network
+8. Encoder-Decoder Feed-forward + LSTM Recurrent Neural Network
 
 <img src="output/encoder-rnn.png" width="70%" align="">
 
-Adaboost + Bagging + Extra Trees + Gradient Boosting + Random Forest + XGB
+9. Adaboost + Bagging + Extra Trees + Gradient Boosting + Random Forest + XGB
 
 <img src="output/stack-ensemble.png" width="70%" align="">
 
 ### Results analysis
 
-Outliers study using K-means, SVM, and Gaussian on TESLA stock
+1. Outliers study using K-means, SVM, and Gaussian on TESLA stock
 
 <img src="misc/outliers.png" width="70%" align="">
 
-Overbought-Oversold study on TESLA stock
+2. Overbought-Oversold study on TESLA stock
 
 <img src="misc/overbought-oversold.png" width="70%" align="">
 
+3. Which stock you need to buy?
+
+<img src="misc/which-stock.png" width="70%" align="">
+
 ### Results simulation
 
-Stock market simulation using Monte Carlo
+1. Stock market simulation using Monte Carlo
 
 <img src="simulation/monte-carlo.png" width="70%" align="">
 
-Stock market simulation using Monte Carlo Markov Chain Metropolis-Hasting
+2. Stock market simulation using Monte Carlo Markov Chain Metropolis-Hasting
 
 <img src="simulation/mcmc.png" width="70%" align="">
+
+3. Portfolio optimization
+
+<img src="simulation/portfolio-optimization.png" width="70%" align="">
