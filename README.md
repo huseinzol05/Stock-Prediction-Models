@@ -19,15 +19,12 @@
   * [Realtime Agent](realtime-agent)
   * [Data Explorations](https://github.com/huseinzol05/Stock-Prediction-Models#data-explorations)
   * [Simulations](https://github.com/huseinzol05/Stock-Prediction-Models#simulations)
+  * [Misc](https://github.com/huseinzol05/Stock-Prediction-Models#misc)
   * [Results](https://github.com/huseinzol05/Stock-Prediction-Models#results)
 
 ## Contents
 
 ### Models
-
-#### [Stacking models](stacking)
-  1. Deep Feed-forward Auto-Encoder Neural Network to reduce dimension + Deep Recurrent Neural Network + ARIMA + Extreme Boosting Gradient Regressor
-  2. Adaboost + Bagging + Extra Trees + Gradient Boosting + Random Forest + XGB
 
 #### [Deep-learning models](deep-learning)
  1. LSTM Recurrent Neural Network
@@ -61,6 +58,10 @@
  29. Fairseq
  30. Dilation CNN + LSTM RNN
 
+#### [Stacking models](stacking)
+ 1. Deep Feed-forward Auto-Encoder Neural Network to reduce dimension + Deep Recurrent Neural Network + ARIMA + Extreme Boosting Gradient Regressor
+ 2. Adaboost + Bagging + Extra Trees + Gradient Boosting + Random Forest + XGB
+
 ### [Agents](agent)
 
 1. Turtle-trading agent
@@ -90,10 +91,7 @@
 ### [Data Explorations](misc)
 
 1. stock market study on TESLA stock, [tesla-study.ipynb](misc/tesla-study.ipynb)
-2. fashion trending prediction with cross-validation, [fashion-forecasting.ipynb](misc/fashion-forecasting.ipynb)
-3. Bitcoin analysis with LSTM prediction, [bitcoin-analysis-lstm.ipynb](misc/bitcoin-analysis-lstm.ipynb)
-4. Outliers study using K-means, SVM, and Gaussian on TESLA stock [outliers.ipynb](misc/outliers.ipynb)
-5. Kijang Emas Bank Negara, [kijang-emas-bank-negara.ipynb](misc/kijang-emas-bank-negara.ipynb)
+2. Outliers study using K-means, SVM, and Gaussian on TESLA stock [outliers.ipynb](misc/outliers.ipynb)
 
 ### [Simulations](simulation)
 
@@ -102,7 +100,13 @@
 
 ### [Tensorflow-js](stock-forecasting-js)
 
-I code [LSTM Recurrent Neural Network](deep-learning/1.lstm.ipynb) and [Simple signal rolling agent](agent/simple-agent.ipynb) inside Tensorflow JS, you can try it here, [huseinhouse.com/stock-forecasting-js](https://huseinhouse.com/stock-forecasting-js/)
+I code [LSTM Recurrent Neural Network](deep-learning/1.lstm.ipynb) and [Simple signal rolling agent](agent/simple-agent.ipynb) inside Tensorflow JS, you can try it here, [huseinhouse.com/stock-forecasting-js](https://huseinhouse.com/stock-forecasting-js/), you can download any historical CSV and upload dynamically.
+
+### [Misc](misc)
+
+1. fashion trending prediction with cross-validation, [fashion-forecasting.ipynb](misc/fashion-forecasting.ipynb)
+2. Bitcoin analysis with LSTM prediction, [bitcoin-analysis-lstm.ipynb](misc/bitcoin-analysis-lstm.ipynb)
+3. Kijang Emas Bank Negara, [kijang-emas-bank-negara.ipynb](misc/kijang-emas-bank-negara.ipynb)
 
 ## Results
 
