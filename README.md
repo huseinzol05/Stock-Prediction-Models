@@ -283,7 +283,7 @@ _**Not included all, each notebooks already rendered the result.**_
 
 3. Which stock you need to buy?
 
-<img src="misc/which-stock.png" width="70%" align="">
+<img src="misc/which-stock.png" width="40%" align="">
 
 ### Results simulation
 
@@ -297,4 +297,4 @@ _**Not included all, each notebooks already rendered the result.**_
 
 3. Portfolio optimization
 
-<img src="simulation/portfolio-optimization.png" width="70%" align="">
+<img src="simulation/portfolio-optimization.png" width="40%" align="">
