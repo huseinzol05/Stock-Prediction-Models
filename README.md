@@ -32,8 +32,9 @@
 ### Models
 
 #### [Deep-learning models](deep-learning)
- 1. LSTM Recurrent Neural Network
- 2. LSTM Bidirectional Neural Network
+ 1. LSTM
+ 2. LSTM Bidirectional
+ 3. LSTM 2-Path
 
 #### [Stacking models](stacking)
  1. Deep Feed-forward Auto-Encoder Neural Network to reduce dimension + Deep Recurrent Neural Network + ARIMA + Extreme Boosting Gradient Regressor
@@ -213,13 +214,17 @@ I will cut the dataset to train and test datasets,
 
 So we will let the model do forecasting based on last 15 hours, and we will going to repeat the experiment for 10 times. You can increase it locally if you want, and tuning parameters will help you by a lot.
 
-1. LSTM Recurrent Neural Network, 95.693%
+1. LSTM, 95.693%
 
 <img src="output/lstm.png" width="70%" align="">
 
-2. LSTM Recurrent Neural Network, 97.4748%
+2. LSTM Bidirectional, 97.4748%
 
 <img src="output/bidirectional-lstm.png" width="70%" align="">
+
+3. LSTM 2-Path, 96.9709%
+
+<img src="output/lstm-2path.png" width="70%" align="">
 
 ### Results analysis
 
