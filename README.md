@@ -234,43 +234,16 @@ total gained 13295.469683, total investment 132.954697 %
 
 ### Results signal prediction
 
-_**Not included all, each notebooks already rendered the result.**_
+I will cut the dataset to train and test datasets,
 
-1. LSTM Recurrent Neural Network
+1. Train dataset derived from starting timestamp until last 15 days
+2. Test dataset derived from last 15 days until end of the dataset
 
-<img src="output/rnn-only.png" width="70%" align="">
+So we will let the model do forecasting based on last 15 hours, and we will going to repeat the experiment for 10 times. You can increase it locally if you want, and tuning parameters will help you by a lot.
 
-2. LSTM Bidirectional Neural Network
+1. LSTM Recurrent Neural Network, 95.693%
 
-<img src="https://raw.githubusercontent.com/huseinzol05/Stock-Prediction-Comparison/master/output/download%20(1).png" width="70%" align="">
-
-3. 2-Path LSTM Recurrent Neural Network
-
-<img src="output/download.png" width="70%" align="">
-
-4. Deep Feed-forward Auto-Encoder Neural Network to reduce dimension + Deep Recurrent Neural Network + ARIMA + Extreme Boosting Gradient Regressor
-
-<img src="output/stack-xgb.png" width="70%" align="">
-
-5. LSTM Sequence-to-Sequence Recurrent Neural Network
-
-<img src="output/lstm-seq2seq.png" width="70%" align="">
-
-6. LSTM Sequence-to-Sequence with Attention Recurrent Neural Network
-
-<img src="output/lstm-seq2seq-attention.png" width="70%" align="">
-
-7. LSTM Sequence-to-Sequence with Attention Bidirectional Recurrent Neural Network
-
-<img src="output/lstm-seq2seq-bidirectional-attention.png" width="70%" align="">
-
-8. Encoder-Decoder Feed-forward + LSTM Recurrent Neural Network
-
-<img src="output/encoder-rnn.png" width="70%" align="">
-
-9. Adaboost + Bagging + Extra Trees + Gradient Boosting + Random Forest + XGB
-
-<img src="output/stack-ensemble.png" width="70%" align="">
+<img src="output/lstm.png" width="70%" align="">
 
 ### Results analysis
 
