@@ -33,35 +33,7 @@
 
 #### [Deep-learning models](deep-learning)
  1. LSTM Recurrent Neural Network
- 2. Encoder-Decoder Feed-forward + LSTM Recurrent Neural Network
- 3. LSTM Bidirectional Neural Network
- 4. 2-Path LSTM Recurrent Neural Network
- 5. GRU Recurrent Neural Network
- 6. Encoder-Decoder Feed-forward + GRU Recurrent Neural Network
- 7. GRU Bidirectional Neural Network
- 8. 2-Path GRU Recurrent Neural Network
- 9. Vanilla Recurrent Neural Network
- 10. Encoder-Decoder Feed-forward + Vanilla Recurrent Neural Network
- 11. Vanilla Bidirectional Neural Network
- 12. 2-Path Vanilla Recurrent Neural Network
- 13. LSTM Sequence-to-Sequence Recurrent Neural Network
- 14. LSTM with Attention Recurrent Neural Network
- 15. LSTM Sequence-to-Sequence with Attention Recurrent Neural Network
- 16. LSTM Sequence-to-Sequence Bidirectional Recurrent Neural Network
- 17. LSTM Sequence-to-Sequence with Attention Bidirectional Recurrent Neural Network
- 18. LSTM with Attention Scaled-Dot Recurrent Neural Network
- 19. LSTM with Dilated Recurrent Neural Network
- 20. Only Attention Neural Network
- 21. Multihead Attention Neural Network
- 22. LSTM with Bahdanau Attention
- 23. LSTM with Luong Attention
- 24. LSTM with Bahdanau + Luong Attention
- 25. DNC Recurrent Neural Network
- 26. Residual LSTM Recurrent Neural Network
- 27. Byte-net
- 28. Attention is all you need
- 29. Fairseq
- 30. Dilation CNN + LSTM RNN
+ 2. LSTM Bidirectional Neural Network
 
 #### [Stacking models](stacking)
  1. Deep Feed-forward Auto-Encoder Neural Network to reduce dimension + Deep Recurrent Neural Network + ARIMA + Extreme Boosting Gradient Regressor
@@ -244,6 +216,10 @@ So we will let the model do forecasting based on last 15 hours, and we will goin
 1. LSTM Recurrent Neural Network, 95.693%
 
 <img src="output/lstm.png" width="70%" align="">
+
+2. LSTM Recurrent Neural Network, 97.4748%
+
+<img src="output/bidirectional-lstm.png" width="70%" align="">
 
 ### Results analysis
 
