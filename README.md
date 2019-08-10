@@ -75,9 +75,10 @@
 
 ### [Simulations](simulation)
 
-1. Stock market simulation using Monte Carlo, [stock-forecasting-monte-carlo.ipynb](simulation/stock-forecasting-monte-carlo.ipynb)
-2. Stock market simulation using Monte Carlo Markov Chain Metropolis-Hasting, [mcmc-stock-market.ipynb](simulation/mcmc-stock-market.ipynb)
-3. Portfolio optimization, [portfolio-optimization.ipynb](simulation/portfolio-optimization.ipynb), inspired from https://pythonforfinance.net/2017/01/21/investment-portfolio-optimisation-with-python/
+1. Simple Monte Carlo, [monte-carlo-drift.ipynb](simulation/monte-carlo-drift.ipynb)
+2. Dynamic volatility Monte Carlo, [monte-carlo-dynamic-volatility.ipynb](simulation/monte-carlo-dynamic-volatility.ipynb)
+3. Drift Monte Carlo, [monte-carlo-drift.ipynb](simulation/monte-carlo-drift.ipynb)
+4. Portfolio optimization, [portfolio-optimization.ipynb](simulation/portfolio-optimization.ipynb), inspired from https://pythonforfinance.net/2017/01/21/investment-portfolio-optimisation-with-python/
 
 ### [Tensorflow-js](stock-forecasting-js)
 
@@ -232,6 +233,10 @@ So we will let the model do forecasting based on last 15 hours, and we will goin
 
 <img src="simulation/monte-carlo-dynamic-volatility.png" width="70%" align="">
 
-3. Portfolio optimization
+3. Drift Monte Carlo
+
+<img src="simulation/monte-carlo-drift.png" width="70%" align="">
+
+4. Portfolio optimization
 
 <img src="simulation/portfolio-optimization.png" width="40%" align="">
