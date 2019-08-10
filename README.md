@@ -78,7 +78,8 @@
 1. Simple Monte Carlo, [monte-carlo-drift.ipynb](simulation/monte-carlo-drift.ipynb)
 2. Dynamic volatility Monte Carlo, [monte-carlo-dynamic-volatility.ipynb](simulation/monte-carlo-dynamic-volatility.ipynb)
 3. Drift Monte Carlo, [monte-carlo-drift.ipynb](simulation/monte-carlo-drift.ipynb)
-4. Portfolio optimization, [portfolio-optimization.ipynb](simulation/portfolio-optimization.ipynb), inspired from https://pythonforfinance.net/2017/01/21/investment-portfolio-optimisation-with-python/
+4. Multivariate Drift Monte Carlo BTC/USDT with Bitcurate sentiment, [multivariate-drift-monte-carlo.ipynb](simulation/multivariate-drift-monte-carlo.ipynb)
+5. Portfolio optimization, [portfolio-optimization.ipynb](simulation/portfolio-optimization.ipynb), inspired from https://pythonforfinance.net/2017/01/21/investment-portfolio-optimisation-with-python/
 
 ### [Tensorflow-js](stock-forecasting-js)
 
@@ -237,6 +238,10 @@ So we will let the model do forecasting based on last 15 hours, and we will goin
 
 <img src="simulation/monte-carlo-drift.png" width="70%" align="">
 
-4. Portfolio optimization
+4. Multivariate Drift Monte Carlo BTC/USDT with Bitcurate sentiment
+
+<img src="simulation/multivariate-drift-monte-carlo.png" width="70%" align="">
+
+5. Portfolio optimization
 
 <img src="simulation/portfolio-optimization.png" width="40%" align="">
