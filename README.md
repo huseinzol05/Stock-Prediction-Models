@@ -187,24 +187,6 @@ I code [LSTM Recurrent Neural Network](deep-learning/1.lstm.ipynb) and [Simple s
 
 <img src="output-agent/abcd-strategy.png" width="70%" align="">
 
-### Results free agent
-
-**This agent able to buy or sell N-units per transaction.**
-
-evolution strategy agent [evolution-strategy-agent.ipynb](free-agent/evolution-strategy-agent.ipynb)
-
-```text
-total gained 11037.529911, total investment 110.375299 %
-```
-
-evolution strategy with bayesian agent [evolution-strategy-bayesian-agent.ipynb](free-agent/evolution-strategy-bayesian-agent.ipynb)
-
-```text
-total gained 13295.469683, total investment 132.954697 %
-```
-
-<img src="output/tesla-nes.png" width="70%" align="">
-
 ### Results signal prediction
 
 I will cut the dataset to train and test datasets,
@@ -242,13 +224,13 @@ So we will let the model do forecasting based on last 15 hours, and we will goin
 
 ### Results simulation
 
-1. Stock market simulation using Monte Carlo
+1. Simple Monte Carlo
 
-<img src="simulation/monte-carlo.png" width="70%" align="">
+<img src="simulation/monte-carlo-simple.png" width="70%" align="">
 
-2. Stock market simulation using Monte Carlo Markov Chain Metropolis-Hasting
+2. Dynamic volatity Monte Carlo
 
-<img src="simulation/mcmc.png" width="70%" align="">
+<img src="simulation/monte-carlo-dynamic-volatility.png" width="70%" align="">
 
 3. Portfolio optimization
 
