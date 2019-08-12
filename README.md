@@ -37,6 +37,10 @@
  3. LSTM 2-Path
  4. GRU
  5. GRU Bidirectional
+ 6. GRU 2-Path
+ 7. Vanilla
+ 8. Vanilla Bidirectional
+ 9. Vanilla 2-Path
 
 #### [Stacking models](stacking)
  1. Deep Feed-forward Auto-Encoder Neural Network to reduce dimension + Deep Recurrent Neural Network + ARIMA + Extreme Boosting Gradient Regressor
@@ -223,6 +227,18 @@ So we will let the model do forecasting based on last 30 days, and we will going
 6. GRU 2-Path, 93.2117%
 
 <img src="output/gru-2path.png" width="70%" align="">
+
+7. Vanilla, 91.4686%
+
+<img src="output/vanilla.png" width="70%" align="">
+
+8. Vanilla Bidirectional, 88.9927%
+
+<img src="output/bidirectional-vanilla.png" width="70%" align="">
+
+9. Vanilla 2-Path, 91.5406%
+
+<img src="output/vanilla-2path.png" width="70%" align="">
 
 ### Results analysis
 
