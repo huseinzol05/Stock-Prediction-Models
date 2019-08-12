@@ -220,6 +220,10 @@ So we will let the model do forecasting based on last 30 days, and we will going
 
 <img src="output/bidirectional-gru.png" width="70%" align="">
 
+6. GRU 2-Path, 93.2117%
+
+<img src="output/gru-2path.png" width="70%" align="">
+
 ### Results analysis
 
 1. Outliers study using K-means, SVM, and Gaussian on TESLA stock
