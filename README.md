@@ -35,6 +35,8 @@
  1. LSTM
  2. LSTM Bidirectional
  3. LSTM 2-Path
+ 4. GRU
+ 5. GRU Bidirectional
 
 #### [Stacking models](stacking)
  1. Deep Feed-forward Auto-Encoder Neural Network to reduce dimension + Deep Recurrent Neural Network + ARIMA + Extreme Boosting Gradient Regressor
@@ -193,22 +195,30 @@ I code [LSTM Recurrent Neural Network](deep-learning/1.lstm.ipynb) and [Simple s
 
 I will cut the dataset to train and test datasets,
 
-1. Train dataset derived from starting timestamp until last 15 days
-2. Test dataset derived from last 15 days until end of the dataset
+1. Train dataset derived from starting timestamp until last 30 days
+2. Test dataset derived from last 30 days until end of the dataset
 
-So we will let the model do forecasting based on last 15 hours, and we will going to repeat the experiment for 10 times. You can increase it locally if you want, and tuning parameters will help you by a lot.
+So we will let the model do forecasting based on last 30 days, and we will going to repeat the experiment for 10 times. You can increase it locally if you want, and tuning parameters will help you by a lot.
 
 1. LSTM, 95.693%
 
 <img src="output/lstm.png" width="70%" align="">
 
-2. LSTM Bidirectional, 97.4748%
+2. LSTM Bidirectional, 93.8%
 
 <img src="output/bidirectional-lstm.png" width="70%" align="">
 
-3. LSTM 2-Path, 96.9709%
+3. LSTM 2-Path, 94.63%
 
 <img src="output/lstm-2path.png" width="70%" align="">
+
+4. GRU, 94.63%
+
+<img src="output/gru.png" width="70%" align="">
+
+5. GRU Bidirectional, 92.5673%
+
+<img src="output/bidirectional-gru.png" width="70%" align="">
 
 ### Results analysis
 
