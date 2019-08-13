@@ -41,6 +41,8 @@
  7. Vanilla
  8. Vanilla Bidirectional
  9. Vanilla 2-Path
+ 10. LSTM Seq2seq
+ 11. LSTM Bidirectional Seq2seq
 
 #### [Stacking models](stacking)
  1. Deep Feed-forward Auto-Encoder Neural Network to reduce dimension + Deep Recurrent Neural Network + ARIMA + Extreme Boosting Gradient Regressor
@@ -239,6 +241,14 @@ So we will let the model do forecasting based on last 30 days, and we will going
 9. Vanilla 2-Path, 91.5406%
 
 <img src="output/vanilla-2path.png" width="70%" align="">
+
+10. LSTM Seq2seq, 94.9817%
+
+<img src="output/lstm-seq2seq.png" width="70%" align="">
+
+11. LSTM Bidirectional Seq2seq, 94.517%
+
+<img src="output/bidirectional-lstm-seq2seq.png" width="70%" align="">
 
 ### Results analysis
 
