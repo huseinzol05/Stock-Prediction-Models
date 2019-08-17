@@ -44,6 +44,9 @@
  10. LSTM Seq2seq
  11. LSTM Bidirectional Seq2seq
  12. LSTM Seq2seq VAE
+ 13. GRU Seq2seq
+ 14. GRU Bidirectional Seq2seq
+ 15. GRU Seq2seq VAE
 
 #### [Stacking models](stacking)
  1. Deep Feed-forward Auto-Encoder Neural Network to reduce dimension + Deep Recurrent Neural Network + ARIMA + Extreme Boosting Gradient Regressor
@@ -254,6 +257,18 @@ So we will let the model do forecasting based on last 30 days, and we will going
 12. LSTM Seq2seq VAE, 95.4190%
 
 <img src="output/lstm-seq2seq-vae.png" width="70%" align="">
+
+13. GRU Seq2seq, 90.8854%
+
+<img src="output/gru-seq2seq.png" width="70%" align="">
+
+14. GRU Bidirectional Seq2seq, 67.9915%
+
+<img src="output/bidirectional-gru-seq2seq.png" width="70%" align="">
+
+15. GRU Seq2seq VAE, 89.1321%
+
+<img src="output/gru-seq2seq-vae.png" width="70%" align="">
 
 ### Results analysis
 
