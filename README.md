@@ -47,6 +47,7 @@
  13. GRU Seq2seq
  14. GRU Bidirectional Seq2seq
  15. GRU Seq2seq VAE
+ 16. Attention-is-all-you-Need
 
 #### [Stacking models](stacking)
  1. Deep Feed-forward Auto-Encoder Neural Network to reduce dimension + Deep Recurrent Neural Network + ARIMA + Extreme Boosting Gradient Regressor
@@ -269,6 +270,10 @@ So we will let the model do forecasting based on last 30 days, and we will going
 15. GRU Seq2seq VAE, 89.1321%
 
 <img src="output/gru-seq2seq-vae.png" width="70%" align="">
+
+16. Attention-is-all-you-Need, 94.2482%
+
+<img src="output/attention-is-all-you-need.png" width="70%" align="">
 
 ### Results analysis
 
