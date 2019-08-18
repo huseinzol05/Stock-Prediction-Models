@@ -49,6 +49,8 @@
  15. GRU Seq2seq VAE
  16. Attention-is-all-you-Need
 
+How to use one of the model to forecast `t + N`, [how-to-forecast.ipynb](deep-learning/how-to-forecast.ipynb)
+
 #### [Stacking models](stacking)
  1. Deep Feed-forward Auto-Encoder Neural Network to reduce dimension + Deep Recurrent Neural Network + ARIMA + Extreme Boosting Gradient Regressor
  2. Adaboost + Bagging + Extra Trees + Gradient Boosting + Random Forest + XGB
@@ -274,6 +276,10 @@ So we will let the model do forecasting based on last 30 days, and we will going
 16. Attention-is-all-you-Need, 94.2482%
 
 <img src="output/attention-is-all-you-need.png" width="70%" align="">
+
+How to forecast,
+
+<img src="output/how-to-forecast.png" width="70%" align="">
 
 ### Results analysis
 
