@@ -48,8 +48,12 @@
  14. GRU Bidirectional Seq2seq
  15. GRU Seq2seq VAE
  16. Attention-is-all-you-Need
+ 17. CNN-Seq2seq
 
-How to use one of the model to forecast `t + N`, [how-to-forecast.ipynb](deep-learning/how-to-forecast.ipynb)
+**Bonus**
+
+1. How to use one of the model to forecast `t + N`, [how-to-forecast.ipynb](deep-learning/how-to-forecast.ipynb)
+2. Consensus, how to use sentiment data to forecast `t + N`, [sentiment-consensus.ipynb](deep-learning/sentiment-consensus.ipynb)
 
 #### [Stacking models](stacking)
  1. Deep Feed-forward Auto-Encoder Neural Network to reduce dimension + Deep Recurrent Neural Network + ARIMA + Extreme Boosting Gradient Regressor
@@ -277,9 +281,19 @@ So we will let the model do forecasting based on last 30 days, and we will going
 
 <img src="output/attention-is-all-you-need.png" width="70%" align="">
 
-How to forecast,
+17. CNN-Seq2seq, 90.74%
+
+<img src="output/cnn-seq2seq.png" width="70%" align="">
+
+**Bonus**
+
+1. How to forecast,
 
 <img src="output/how-to-forecast.png" width="70%" align="">
+
+2. Sentiment consensus,
+
+<img src="output/sentiment-consensus.png" width="70%" align="">
 
 ### Results analysis
 
