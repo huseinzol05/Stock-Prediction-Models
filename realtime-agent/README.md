@@ -1,6 +1,6 @@
 ## How-to, this model based on [evolution-strategy](https://github.com/huseinzol05/Stock-Prediction-Models/tree/master/agent)
 
-1. You can check [agent.ipynb](agent.ipynb) for to train an evolution strategy to do realtime trading.
+1. You can check [realtime-evolution-strategy.ipynb](realtime-evolution-strategy.ipynb) for to train an evolution strategy to do realtime trading.
 
 I trained the model to learn trading on different stocks,
 
