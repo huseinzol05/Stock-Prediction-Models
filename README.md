@@ -29,7 +29,7 @@
 
 ## Ads
 
-<a href="https://tracking.gitads.io/?repo=Stock-Prediction-Models"><img src="https://images.gitads.io/Stock-Prediction-Models" alt=“GitAds”/></a>
+<a href="https://tracking.gitads.io/?repo=Stock-Prediction-Models"><img src="https://images.gitads.io/Stock-Prediction-Models" alt="GitAds"/></a>
 
 _Ads served ethically._
 
