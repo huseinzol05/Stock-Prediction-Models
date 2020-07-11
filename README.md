@@ -27,12 +27,6 @@
     * [Results analysis](https://github.com/huseinzol05/Stock-Prediction-Models#results-analysis)
     * [Results simulation](https://github.com/huseinzol05/Stock-Prediction-Models#results-simulation)
 
-## Ads
-
-<a href="https://tracking.gitads.io/?repo=Stock-Prediction-Models"><img src="https://images.gitads.io/Stock-Prediction-Models" alt="GitAds" width="50%"></a>
-
-_Ads served ethically._
-
 ## Contents
 
 ### Models
