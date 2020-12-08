@@ -23,72 +23,13 @@ name = "docker"
 enabled = true
 
 [[analyzers]]
-name = "terraform"
-enabled = true
-
-[[analyzers]]
 name = "javascript"
 enabled = true
 
   [analyzers.meta]
-  environment = [
-    "jest",
-    "mocha",
-    "mongo",
-    "jasmine",
-    "jquery"
-  ]
-  plugins = [
-    "vue",
-    "ember",
-    "angular",
-    "angularjs",
-    "meteor"
-  ]
+  environment = ["mongo"]
+  plugins = ["angularjs"]
 
 [[analyzers]]
 name = "sql"
 enabled = true
-
-[[analyzers]]
-name = "shell"
-enabled = true
-
-[[analyzers]]
-name = "java"
-enabled = true
-
-[[transformers]]
-name = "rubocop"
-enabled = true
-
-[[transformers]]
-name = "black"
-enabled = true
-
-[[transformers]]
-name = "gofmt"
-enabled = true
-
-[[transformers]]
-name = "yapf"
-enabled = true
-
-[[transformers]]
-name = "autopep8"
-enabled = true
-
-[[transformers]]
-name = "isort"
-enabled = true
-
-[[transformers]]
-name = "standardrb"
-enabled = true
-
-[[transformers]]
-name = "prettier"
-enabled = true
-
-[[transformers]]
-name = "standardjs"
