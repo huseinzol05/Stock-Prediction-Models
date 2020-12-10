@@ -191,7 +191,7 @@ class Agent:
                 'balance': self._capital,
                 'timestamp': str(datetime.now()),
             }
-        elif action == 2 and len(self._inventory):
+        elif action == 2 and self._inventory:
             bought_price = self._inventory.pop(0)
             self._scaled_capital += close
             self._capital += real_close
@@ -266,7 +266,7 @@ class Agent:
                 inventory.append(self.trend[t])
                 starting_money -= self.trend[t]
 
-            elif action == 2 and len(inventory):
+            elif action == 2 and inventory:
                 bought_price = inventory.pop(0)
                 starting_money += self.trend[t]
                 invest = ((self.trend[t] - bought_price) / bought_price) * 100
@@ -311,7 +311,7 @@ class Agent:
                     % (t, self.real_trend[t], real_starting_money)
                 )
 
-            elif action == 2 and len(inventory):
+            elif action == 2 and inventory:
                 bought_price = inventory.pop(0)
                 real_bought_price = real_inventory.pop(0)
                 starting_money += self.trend[t]
