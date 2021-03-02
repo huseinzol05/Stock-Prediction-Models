@@ -1,7 +1,7 @@
-name: py-finance
+name: stock-predict-models
 channels:
-  - conda-forge
   - anaconda
+  - conda-forge
   - defaults
 dependencies:
   - alabaster=0.7.12=py_0
@@ -18,8 +18,8 @@ dependencies:
   - blas=1.0=mkl
   - bleach=3.2.1=py_0
   - brotlipy=0.7.0=py38he774522_1000
-  - ca-certificates=2020.10.14=0
-  - certifi=2020.6.20=py38_0
+  - ca-certificates=2020.12.5=h5b45459_0
+  - certifi=2020.12.5=py38haa244fe_1
   - cffi=1.14.3=py38h7a1dbc1_0
   - chardet=3.0.4=py38_1003
   - cloudpickle=1.6.0=py_0
@@ -49,10 +49,13 @@ dependencies:
   - jedi=0.17.1=py38_0
   - jinja2=2.11.2=py_0
   - jpeg=9b=vc14h4d7706e_1
+  - json5=0.9.5=pyh9f0ad1d_0
   - jsonschema=3.2.0=py_2
   - jupyter_client=6.1.7=py_0
   - jupyter_core=4.6.3=py38_0
+  - jupyterlab=2.2.9=pyhd8ed1ab_0
   - jupyterlab_pygments=0.1.2=py_0
+  - jupyterlab_server=1.2.0=py_0
   - keyring=21.4.0=py38_1
   - kiwisolver=1.3.1=py38hbd9d945_0
   - lazy-object-proxy=1.4.3=py38he774522_0
@@ -85,7 +88,7 @@ dependencies:
   - numpy=1.19.4=py38h0cc643e_1
   - numpydoc=1.1.0=py_0
   - olefile=0.46=pyh9f0ad1d_1
-  - openssl=1.1.1h=he774522_0
+  - openssl=1.1.1j=h8ffe710_0
   - packaging=20.4=py_0
   - pandoc=2.11=h9490d1a_0
   - pandocfilters=1.4.2=py38_1
@@ -185,4 +188,4 @@ dependencies:
     - scipy==1.5.4
     - scs==2.1.2
     - yfinance==0.1.55
-prefix: C:\Users\Jason\anaconda3\envs\py-finance
+prefix: C:\Users\JYT1\Anaconda3\envs\stock-predict-models
