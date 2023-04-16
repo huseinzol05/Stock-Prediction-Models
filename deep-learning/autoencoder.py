@@ -38,4 +38,4 @@ def reducedimension(input_, dimension = 2, learning_rate = 0.01, hidden_layer = 
         
     vectors = sess.run(second_layer_encoder, feed_dict={X: input_})
     tf.reset_default_graph()
-    return vectors
+    return vectors#new text
